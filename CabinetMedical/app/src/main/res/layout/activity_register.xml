@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_register_upside"
+    tools:context="diana.medical.Register">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:layout_gravity="fill_vertical"
+    android:background="@drawable/bg_register"
+    android:alpha="250">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+<TextView
+    android:id="@+id/regUser"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="@string/regUser"
+    android:textAlignment="center"
+    android:gravity="center"
+    android:typeface="serif"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/regTxtUser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="@color/white" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+<TextView
+    android:id="@+id/regEmail"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:text="@string/regEmail"
+    android:textAlignment="center"
+    android:typeface="serif"
+    android:textStyle="bold"/>
+
+<EditText
+    android:id="@+id/regTxtEmail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:inputType="textEmailAddress"
+    android:layout_marginTop="5dp"
+    android:background="@color/white"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+<TextView
+    android:id="@+id/regParola"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="@string/regParola"
+    android:textAlignment="center"
+    android:typeface="serif"
+    android:textStyle="bold"/>
+
+<EditText
+    android:id="@+id/regTxtParola"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:inputType="textPassword"
+    android:background="@color/white"
+    android:layout_marginTop="5dp"/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+<TextView
+    android:id="@+id/regNume"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:text="@string/regNume"
+    android:textAlignment="center"
+    android:typeface="serif"
+    android:textStyle="bold"/>
+
+<EditText
+    android:id="@+id/regTxtNumeCabinet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="@color/white"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+<TextView
+    android:id="@+id/regSpecializare"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="@string/regSpecializare"
+    android:textAlignment="center"
+    android:typeface="serif"
+    android:textStyle="bold"/>
+
+<Spinner
+    android:id="@+id/regTxtSpecializare"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textAlignment="center"
+    android:layout_marginTop="5dp"
+    android:background="@color/white"
+    android:dropDownWidth="match_parent" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+<TextView
+    android:id="@+id/regAdresa"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="@string/regAdresa"
+    android:textAlignment="center"
+    android:typeface="serif"
+    android:textStyle="bold"/>
+
+<EditText
+    android:id="@+id/regTxtAdresa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="5dp"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+<TextView
+    android:id="@+id/regProgram"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="@string/regProgram"
+    android:textAlignment="center"
+    android:typeface="serif"
+    android:textStyle="bold"/>
+
+<EditText
+    android:id="@+id/regTxtProgram"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="5dp"
+    android:lines="8"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+<TextView
+    android:id="@+id/regTarif"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="@string/regTarif"
+    android:textAlignment="center"
+    android:typeface="serif"
+    android:textStyle="bold"/>
+
+<EditText
+    android:id="@+id/regTxtTarif"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="5dp"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+<TextView
+    android:id="@+id/regTelefon"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="@string/regTelefon"
+    android:textAlignment="center"
+    android:typeface="serif"
+    android:textStyle="bold"/>
+
+<EditText
+    android:id="@+id/regTxtTelefon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="5dp"
+    android:maxLength="10"
+    android:inputType="phone"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+<TextView
+    android:id="@+id/regDescriere"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="@string/regDescriere"
+    android:textAlignment="center"
+    android:typeface="serif"
+    android:textStyle="bold"/>
+
+<EditText
+    android:id="@+id/regTxtDescriere"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="@color/white"
+    android:lines="4"
+    android:maxLength="260"/>
+</LinearLayout>
+
+<Button
+    android:id="@+id/regBtn"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:text="@string/btnRegister"
+    android:typeface="serif"
+    android:textStyle="bold"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:background="#9B59B6"/>
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>

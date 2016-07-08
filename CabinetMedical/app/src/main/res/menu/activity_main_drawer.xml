@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/info"
+            android:title="About" />
+    </group>
+
+    <item
+        android:id="@+id/menuProfil"
+        android:title="Profil"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_modificaNumeCabinet"
+                android:icon="@drawable/cabinet"
+                android:title="Nume cabinet" />
+            <item
+                android:id="@+id/nav_modificaDescriere"
+                android:icon="@drawable/descriere"
+                android:title="Descriere" />
+            <item
+                android:id="@+id/nav_modificaProgram"
+                android:icon="@drawable/program"
+                android:title="Program" />
+            <item
+                android:id="@+id/nav_modificaTarif"
+                android:icon="@drawable/tarif"
+                android:title="Tarif" />
+            <item
+                android:id="@+id/nav_modificaAdresa"
+                android:icon="@drawable/adresa"
+                android:title="Adresa" />
+            <item
+                android:id="@+id/nav_modificaTelefon"
+                android:icon="@drawable/telefon"
+                android:title="Telefon" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuCont"
+        android:title="Cont"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_autentificare"
+                android:icon="@drawable/login"
+                android:title="Date autentificare" />
+            <item
+                android:id="@+id/nav_deleteAccount"
+                android:icon="@drawable/delete"
+                android:title="Stergere cont" />
+            <item
+                android:id="@+id/nav_deconectare"
+                android:icon="@drawable/logout"
+                android:title="Deconectare" />
+        </menu>
+    </item>
+
+</menu>

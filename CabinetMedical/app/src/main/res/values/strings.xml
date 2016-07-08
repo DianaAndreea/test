@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Cabinete Medicale</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Strings related to content_main.xml-->
+    <string name="btn1">Alergologie</string>
+    <string name="btn2">Boli Infectioase</string>
+    <string name="btn3">Cardiologie</string>
+    <string name="btn4">Chirurgie Generala</string>
+    <string name="btn5">Dermato Venerologie</string>
+    <string name="btn6">Endocrinologie</string>
+    <string name="btn7">Estetica-Infrumusetare</string>
+    <string name="btn8">Gastro Enterologie</string>
+    <string name="btn9">Hematologie</string>
+    <string name="btn10">Homeopatie</string>
+    <string name="btn11">Laborator Analize</string>
+    <string name="btn12">Medicina de familie</string>
+    <string name="btn13">Neurologie</string>
+    <string name="btn14">Obstretica-Ginecologie</string>
+    <string name="btn15">Oftalmologie</string>
+    <string name="btn16">Oncologie</string>
+    <string name="btn17">ORL</string>
+    <string name="btn18">Pediatrie</string>
+    <string name="btn19">Recuperare-Kinetoterapie</string>
+    <string name="btn20">Stomatologie</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user">Nume utilizator</string>
+    <string name="prompt_password">Parola</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">Adresa de email este invalida.</string>
+    <string name="error_invalid_password">Parola prea scurta.</string>
+    <string name="error_incorrect_password">Parola incorecta.</string>
+    <string name="error_field_required">Completati acest rand.</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="btn_login">"Login"</string>
+    <string name="txt_User">""</string>
+
+    <!--Strings related to Register-->
+    <string name="regUser">Nume utilizator</string>
+    <string name="regEmail">Email</string>
+    <string name="regParola">Parola</string>
+    <string name="regNume">Nume cabinet</string>
+    <string name="regSpecializare">Specializare</string>
+    <string name="regAdresa">Adresa Cabinet</string>
+    <string name="regDescriere">Descriere</string>
+    <string name="regTarif">Tarif</string>
+    <string name="regProgram">Program</string>
+    <string name="regTelefon">Telefon</string>
+    <string name="btnRegister">Inregistrare</string>
+
+
+</resources>
